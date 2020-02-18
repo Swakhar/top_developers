@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+    text-align: center;
+ }
+
+ .developers {
+    margin: 0 auto;
+ }
+
+ .developers td, .developers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.developers tr:nth-child(even){background-color: #f2f2f2;}
+
+.developers tr:hover {background-color: #ddd;}
+
+.developers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.developers img {
+  width: 100px;
+  height: 100px;
+}
